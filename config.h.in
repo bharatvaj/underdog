@@ -1,0 +1,10 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+//cmake settings
+#define underdog_VERSION_MAJOR @underdog_VERSION_MAJOR@
+#define underdog_VERSION_MINOR @underdog_VERSION_MINOR@
+#define BUFFER_SIZE @BUFFER_SIZE@
+#define DEFAULT_PORT @DEFAULT_PORT@
+#define PROGRAM_NAME "Underdog"
+#cmakedefine ENABLE_LOG
+#endif
